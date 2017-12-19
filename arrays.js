@@ -19,7 +19,6 @@ function addElementToEndOfArray(array, element) {
   return [...array, element]
 }
 
-const array = [1]
 function destructivelyAddElementToEndOfArray(array, element) {
   var element = 'foo'
   array.push(element)
@@ -43,7 +42,7 @@ function removeElementFromBeginningOfArray(array) {
   return array
 }
 
-const array = [1, 2, 3]
+
 function destructivelyRemoveElementFromEndOfArray(array) {
   array.pop()
   return array
