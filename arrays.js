@@ -30,7 +30,7 @@ function accessElementInArray(array, index) {
   return array[2]
 }
 
-const array = [1, 2, 3]
+//const array = [1, 2, 3]
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.shift()
   return array
